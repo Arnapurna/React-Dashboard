@@ -1,0 +1,28 @@
+.sidebar{
+    width: 50px;
+}
+.main {
+    width: 1299px;
+}
+
+@media (max-width: 	2560px) {
+    .sidebar {
+      width: 50px; /* Adjust width for smaller screens */
+    }
+  
+    .main {
+      width: calc(100% - 50px); /* Adjust main content area width for smaller screens */
+    }
+  }
+
+/* Home.css */
+
+/* Reduce margin and padding for certain elements */
+  .agent_list{
+    height: 200px;
+    overflow-y: auto;
+  }
+
+  .agent_list::-webkit-scrollbar{
+   display: none !important;
+  }
